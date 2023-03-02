@@ -18,17 +18,19 @@ Open up the file called example3.py to see how brackets and order of operations 
 
 ##### Task 1
 Open the file called task1.py
-The Earth maintains an orbit where it's closest distance to \
-the sun is 0.9759 AU and it's furthest distance to the sun is \
-1.016 AU. \
-Ask the user to enter a number. \
-Tell them if the number is between 0.9759 and 1.016.\
+The Earth maintains an orbit where it's closest distance to  
+the sun is 0.9759 AU and it's furthest distance to the sun is 
+1.016 AU. 
+Mars maintans an orbit that has a minimum value of 1.524 AU and
+a maximum value of 1.666 AU
+Ask the user to enter a number. 
+Tell them if the number is within Earth or Mars orbits
 (2 points) 
 
 ##### Task 2
 Open the file called task2.py
 Ask the user to enter a number. \
-Tell them if the number is both a perfect square and a perfect cube.\
+Tell them if the number is both a perfect square and divisible by 2.\
 (2 points) 
 
 ##### Task 3
