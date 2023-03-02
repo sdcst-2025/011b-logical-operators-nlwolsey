@@ -3,7 +3,7 @@
 
 """
 Ask the user to enter a number.
-Tell them if the number is both a perfect square and a perfect cube.
+Tell them if the number is both a perfect square and divisible by 2.
 
 Note:  Many languages have a problem when dealing with floating point
 decimals, and python is no exception.
@@ -20,14 +20,14 @@ Inputs:
 number
 
 Outputs:
-xx is both a perfect square and a perfect cube.
+xx is both a perfect square and a divisible by 2.
 xx is only a perfect square.
-xx is only a perfect cube.
+xx is only divisible by 2.
 
 Example:
 Enter a number: 8
-8 is only a perfect cube.
+8 is only divisible by 2.
 
 Enter a number: 64
-64 is both a perfect square and a perfect cube.
+64 is both a perfect square and divisible by 2.
 """

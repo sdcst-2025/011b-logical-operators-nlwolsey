@@ -9,7 +9,7 @@ catName = "Casey"
 hasCat = True
 
 if hasCat=True:
-    print("I have a cat named {Casey}")
+    print(f"I have a cat named {catName}")
 else:
     print("I do not have a cat")
 
