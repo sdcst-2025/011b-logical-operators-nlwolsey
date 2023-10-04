@@ -1,7 +1,8 @@
 #!python3
 
 """
-Boolean values can be checked in conditional statements.  You don't need to check to see if they are True
+Boolean values can be checked in conditional statements.  
+You don't need to check to see if they are equal to True
 """
 
 isHungry = True
