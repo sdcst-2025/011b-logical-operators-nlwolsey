@@ -31,3 +31,26 @@ Enter a number: 8
 Enter a number: 64
 64 is both a perfect square and divisible by 2.
 """
+n = int(input("Give me a number"))
+if n%2==0:
+    d=1 #
+else: 
+    d=0 #
+import math
+def perfsqr(num):
+    if num < 0:
+        return False
+    s = math.isqrt(num)
+    return s * s  
+z = perfsqr(n)
+if n == z:
+    p=1
+else:
+    p=0   
+if d==1 and p==1:
+    print (f"{n} is both a perfect square and divisible by 2")
+elif d==1 and p==0:
+    print (f"{n} is only divisible by 2")
+elif d== 0 and p==1: 
+    print (f"{n} is only a perfect square ")
+else: print(print (f"{n} is not a perfect square and not divisible by 2"))
